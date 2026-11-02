@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -74,7 +73,5 @@ export default defineConfig([
 ])
 
 ```
-=======
 # flight-sim-AF
 flight simulator iframe insertion for airforce.lk /modification
->>>>>>> f6753ead40634b8fb5797c0040441aa5c31e334c
