@@ -1,5 +1,6 @@
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Sky } from '@react-three/drei';
+import Airplane from './Airplane'
 
 export default function FlightSimulator() {
   return (
@@ -18,6 +19,9 @@ export default function FlightSimulator() {
 
         {/* Temporary Orbit Controls for inspecting the 3D scene */}
         <OrbitControls />
+
+        {/* Render Airplane */}
+        <Airplane />
 
         {/* World Ground Plane */}
         <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]}>
