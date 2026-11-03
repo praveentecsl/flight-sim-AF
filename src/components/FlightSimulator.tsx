@@ -86,7 +86,7 @@ export default function FlightSimulator() {
         {/* Central Runway Strip */}
         <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.01, 0]} receiveShadow>
           <planeGeometry args={[12, 1000]} />
-          <meshStandardMaterial color="#1e293b" roughness={0.5} />
+          <meshStandardMaterial color="#093815" roughness={0.5} />
         </mesh>
       </Canvas>
     </div>
