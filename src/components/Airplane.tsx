@@ -57,7 +57,7 @@ export default function Airplane() {
       {/* Main Wings */}
       <mesh position={[0, 0, 0]}>
         <boxGeometry args={[7, 0.1, 1]} />
-        <meshStandardMaterial color="#3b82f6" />
+        <meshStandardMaterial color="#3782fa" />
       </mesh>
       {/* Tail Fin */}
       <mesh position={[0, 0.8, -1.5]}>
